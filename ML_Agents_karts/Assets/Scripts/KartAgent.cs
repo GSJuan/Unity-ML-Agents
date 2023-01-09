@@ -10,38 +10,39 @@ public class KartAgent : Agent
    public CheckpointManager _checkpointManager;
    private KartController _kartController;
    
-   //called once at the start
    public override void Initialize()
    {
       _kartController = GetComponent<KartController>();
    }
    
-   //Called each time it has timed-out or has reached the goal
    public override void OnEpisodeBegin()
    {
       _checkpointManager.ResetCheckpoints();
       _kartController.Respawn();
    }
 
-   #region Edit this region!
+   public override void CollectObservations(VectorSensor sensor)
+   {
+      Vector3 diff = _checkpointManager.nextCheckPointToReach.transform.position - transform.position;
+      sensor.AddObservation(diff / 20f); //Normalizamos la observacion, no se espera que los coches estén a mas de 20 unidades de distancia
+      AddReward(-0.001f); //Se añade una pequeña penalización para motivar una conduccion mas rapida
+   }
 
-      //Collecting extra Information that isn't picked up by the RaycastSensors
-      public override void CollectObservations(VectorSensor sensor)
-      {
-         
-      }
-
-      //Processing the actions received
-      public override void OnActionReceived(ActionBuffers actions)
-      {
-         
-      }
+   public override void OnActionReceived(ActionBuffers actions)
+   {
+      var Actions = actions.ContinuousActions;
       
-      //For manual testing with human input, the actionsOut defined here will be sent to OnActionRecieved
-      public override void Heuristic(in ActionBuffers actionsOut)
-      {
-         
-      }
+      _kartController.ApplyAcceleration(Actions[1]);
+      _kartController.Steer(Actions[0]);
+      _kartController.AnimateKart(Actions[0]);
+   }
+   
+   public override void Heuristic(in ActionBuffers actionsOut)
+   {
+      var continousActions = actionsOut.ContinuousActions;
+      continousActions.Clear();
       
-   #endregion
+      continousActions[0] = Input.GetAxis("Horizontal");
+      continousActions[1] = Input.GetKey(KeyCode.W) ? 1f : 0f;
+   }
 }
