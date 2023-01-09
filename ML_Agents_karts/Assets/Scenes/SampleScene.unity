@@ -5436,6 +5436,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &863835748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 615356445828344825, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+  m_PrefabInstance: {fileID: 1622689569}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28a49a08e4cacc40bb97f3d7ebddacb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &867419339
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,7 +7737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1838a1c6a5d855940b3a363963a0d2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kartToFollow: {fileID: 0}
+  kartToFollow: {fileID: 863835748}
   cameraCheckpoints:
   - camera: {fileID: 15184010}
     checkpoint: {fileID: 913958740}
