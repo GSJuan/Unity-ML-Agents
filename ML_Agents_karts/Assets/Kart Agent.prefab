@@ -1144,7 +1144,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 56db7e85f767c1b4da058f2aacfa0d33, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: a0cc5546a2e96da40bce169d5181f6b0, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: KartAgent
@@ -1209,7 +1209,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SensorName: RaySensorTwo
-  m_DetectableTags: []
+  m_DetectableTags:
+  - Wall
+  - Checkpoint
   m_RaysPerDirection: 1
   m_MaxRayDegrees: 3.2
   m_SphereCastRadius: 0.5

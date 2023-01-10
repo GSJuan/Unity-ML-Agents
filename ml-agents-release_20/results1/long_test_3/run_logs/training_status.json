@@ -1,0 +1,56 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 499495,
+                "file_path": "results\\long_test_3\\KartAgent\\KartAgent-499495.onnx",
+                "reward": -1.4520000219345093,
+                "creation_time": 1673300787.9782283,
+                "auxillary_file_paths": [
+                    "results\\long_test_3\\KartAgent\\KartAgent-499495.pt"
+                ]
+            },
+            {
+                "steps": 999852,
+                "file_path": "results\\long_test_3\\KartAgent\\KartAgent-999852.onnx",
+                "reward": -1.929277817408244,
+                "creation_time": 1673301231.6004639,
+                "auxillary_file_paths": [
+                    "results\\long_test_3\\KartAgent\\KartAgent-999852.pt"
+                ]
+            },
+            {
+                "steps": 1499994,
+                "file_path": "results\\long_test_3\\KartAgent\\KartAgent-1499994.onnx",
+                "reward": -1.7409075167444017,
+                "creation_time": 1673301660.633422,
+                "auxillary_file_paths": [
+                    "results\\long_test_3\\KartAgent\\KartAgent-1499994.pt"
+                ]
+            },
+            {
+                "steps": 1738830,
+                "file_path": "results\\long_test_3\\KartAgent\\KartAgent-1738830.onnx",
+                "reward": null,
+                "creation_time": 1673301885.2513354,
+                "auxillary_file_paths": [
+                    "results\\long_test_3\\KartAgent\\KartAgent-1738830.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1738830,
+            "file_path": "results\\long_test_3\\KartAgent.onnx",
+            "reward": null,
+            "creation_time": 1673301885.2513354,
+            "auxillary_file_paths": [
+                "results\\long_test_3\\KartAgent\\KartAgent-1738830.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
