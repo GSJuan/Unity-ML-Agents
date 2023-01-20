@@ -1,0 +1,65 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 19499824,
+                "file_path": "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-19499824.onnx",
+                "reward": -1.879722237586975,
+                "creation_time": 1673478055.5847816,
+                "auxillary_file_paths": [
+                    "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-19499824.pt"
+                ]
+            },
+            {
+                "steps": 19999754,
+                "file_path": "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-19999754.onnx",
+                "reward": -2.2346251234412193,
+                "creation_time": 1673478459.4031665,
+                "auxillary_file_paths": [
+                    "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-19999754.pt"
+                ]
+            },
+            {
+                "steps": 20499688,
+                "file_path": "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-20499688.onnx",
+                "reward": -1.684727354483171,
+                "creation_time": 1673478864.096139,
+                "auxillary_file_paths": [
+                    "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-20499688.pt"
+                ]
+            },
+            {
+                "steps": 20999731,
+                "file_path": "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-20999731.onnx",
+                "reward": null,
+                "creation_time": 1673479274.5780158,
+                "auxillary_file_paths": [
+                    "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-20999731.pt"
+                ]
+            },
+            {
+                "steps": 21460946,
+                "file_path": "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-21460946.onnx",
+                "reward": null,
+                "creation_time": 1673479647.4375849,
+                "auxillary_file_paths": [
+                    "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-21460946.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 21460946,
+            "file_path": "results\\smaller-ray-cast-sphere-01\\KartAgent.onnx",
+            "reward": null,
+            "creation_time": 1673479647.4375849,
+            "auxillary_file_paths": [
+                "results\\smaller-ray-cast-sphere-01\\KartAgent\\KartAgent-21460946.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

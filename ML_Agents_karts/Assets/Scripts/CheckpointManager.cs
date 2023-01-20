@@ -75,4 +75,20 @@ public class CheckpointManager : MonoBehaviour
             
         }
     }
+
+  private void OnCollisionEnter(Collision collision)
+  {
+    if(collision.gameObject.CompareTag("Wall"))
+    {
+      kartAgent.AddReward(-(0.0005f) / Checkpoints.Count);
+    }
+  }
+
+  private void OnCollisionStay(Collision collision)
+  {
+    if(collision.gameObject.CompareTag("Wall"))
+    {
+      kartAgent.AddReward(-0.00002f);
+    }
+  }
 }

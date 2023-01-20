@@ -1,0 +1,47 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 499923,
+                "file_path": "results\\simpleScene-04\\KartAgent\\KartAgent-499923.onnx",
+                "reward": -2.410554703544168,
+                "creation_time": 1674245741.0946443,
+                "auxillary_file_paths": [
+                    "results\\simpleScene-04\\KartAgent\\KartAgent-499923.pt"
+                ]
+            },
+            {
+                "steps": 999824,
+                "file_path": "results\\simpleScene-04\\KartAgent\\KartAgent-999824.onnx",
+                "reward": -2.0654410486635952,
+                "creation_time": 1674246150.964447,
+                "auxillary_file_paths": [
+                    "results\\simpleScene-04\\KartAgent\\KartAgent-999824.pt"
+                ]
+            },
+            {
+                "steps": 1032346,
+                "file_path": "results\\simpleScene-04\\KartAgent\\KartAgent-1032346.onnx",
+                "reward": -2.0758061834744046,
+                "creation_time": 1674246183.8079493,
+                "auxillary_file_paths": [
+                    "results\\simpleScene-04\\KartAgent\\KartAgent-1032346.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1032346,
+            "file_path": "results\\simpleScene-04\\KartAgent.onnx",
+            "reward": -2.0758061834744046,
+            "creation_time": 1674246183.8079493,
+            "auxillary_file_paths": [
+                "results\\simpleScene-04\\KartAgent\\KartAgent-1032346.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
