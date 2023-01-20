@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Checkpoint
   - Wall
-  - RealWall
   layers:
   - Default
   - TransparentFX
