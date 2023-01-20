@@ -1144,7 +1144,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 2102fb02bc4ac7e4aae02701879fb505, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
   m_BehaviorName: KartAgent
@@ -1182,14 +1182,13 @@ MonoBehaviour:
   m_SensorName: RaySensorOne
   m_DetectableTags:
   - Wall
-  - Checkpoint
   m_RaysPerDirection: 2
   m_MaxRayDegrees: 120
   m_SphereCastRadius: 0.1
   m_RayLength: 20
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 243
+    m_Bits: 179
   m_ObservationStacks: 1
   m_AlternatingRayOrder: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
@@ -1210,7 +1209,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SensorName: RaySensorTwo
   m_DetectableTags:
-  - Wall
   - Checkpoint
   m_RaysPerDirection: 1
   m_MaxRayDegrees: 3.2
@@ -1218,7 +1216,7 @@ MonoBehaviour:
   m_RayLength: 100
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 243
+    m_Bits: 64
   m_ObservationStacks: 1
   m_AlternatingRayOrder: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
