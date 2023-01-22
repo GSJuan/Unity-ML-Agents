@@ -56,12 +56,12 @@ public class CheckpointManager : MonoBehaviour
 
         if (CurrentCheckpointIndex >= Checkpoints.Count)
         {
-            kartAgent.AddReward(0.5f);
+            kartAgent.AddReward(0.7f);
             kartAgent.EndEpisode();
         }
         else
         {
-            kartAgent.AddReward((0.5f) / Checkpoints.Count);
+            kartAgent.AddReward((0.7f) / Checkpoints.Count);
             SetNextCheckpoint();
         }
     }
@@ -80,7 +80,7 @@ public class CheckpointManager : MonoBehaviour
   {
     if(collision.gameObject.CompareTag("Wall"))
     {
-      kartAgent.AddReward(-(0.05f) / Checkpoints.Count);
+      kartAgent.AddReward(-(0.0005f) / Checkpoints.Count);
     }
   }
 
@@ -88,7 +88,7 @@ public class CheckpointManager : MonoBehaviour
   {
     if(collision.gameObject.CompareTag("Wall"))
     {
-      kartAgent.AddReward(-0.0002f);
+      kartAgent.AddReward(-(0.00002f) / Checkpoints.Count);
     }
   }
 }

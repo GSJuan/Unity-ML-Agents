@@ -1,0 +1,65 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 4999663,
+                "file_path": "results\\simplescene-3-02\\KartAgent\\KartAgent-4999663.onnx",
+                "reward": -0.07663705613878039,
+                "creation_time": 1674410607.5424395,
+                "auxillary_file_paths": [
+                    "results\\simplescene-3-02\\KartAgent\\KartAgent-4999663.pt"
+                ]
+            },
+            {
+                "steps": 5499684,
+                "file_path": "results\\simplescene-3-02\\KartAgent\\KartAgent-5499684.onnx",
+                "reward": 0.08912737170855205,
+                "creation_time": 1674411017.0056891,
+                "auxillary_file_paths": [
+                    "results\\simplescene-3-02\\KartAgent\\KartAgent-5499684.pt"
+                ]
+            },
+            {
+                "steps": 5999230,
+                "file_path": "results\\simplescene-3-02\\KartAgent\\KartAgent-5999230.onnx",
+                "reward": 0.5791886846224467,
+                "creation_time": 1674411426.7653065,
+                "auxillary_file_paths": [
+                    "results\\simplescene-3-02\\KartAgent\\KartAgent-5999230.pt"
+                ]
+            },
+            {
+                "steps": 6499832,
+                "file_path": "results\\simplescene-3-02\\KartAgent\\KartAgent-6499832.onnx",
+                "reward": 0.263373722632726,
+                "creation_time": 1674411831.3260148,
+                "auxillary_file_paths": [
+                    "results\\simplescene-3-02\\KartAgent\\KartAgent-6499832.pt"
+                ]
+            },
+            {
+                "steps": 6841066,
+                "file_path": "results\\simplescene-3-02\\KartAgent\\KartAgent-6841066.onnx",
+                "reward": null,
+                "creation_time": 1674412107.9253335,
+                "auxillary_file_paths": [
+                    "results\\simplescene-3-02\\KartAgent\\KartAgent-6841066.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 6841066,
+            "file_path": "results\\simplescene-3-02\\KartAgent.onnx",
+            "reward": null,
+            "creation_time": 1674412107.9253335,
+            "auxillary_file_paths": [
+                "results\\simplescene-3-02\\KartAgent\\KartAgent-6841066.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
