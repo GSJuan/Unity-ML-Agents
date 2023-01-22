@@ -11,5 +11,10 @@ public class Checkpoint : MonoBehaviour
         {
             other.GetComponent<CheckpointManager>().CheckPointReached(this);
         }
+
+        else if (other.GetComponent<CheckpointManagerNavMesh>() != null)
+        {
+            other.GetComponent<CheckpointManagerNavMesh>().CheckPointReached(this);
+        }
     }
 }
