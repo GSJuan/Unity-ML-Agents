@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
+    agentRadius: 0.85
+    agentHeight: 0.65
+    agentSlope: 40
+    agentClimb: 0.43
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.28333333
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -751,6 +751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &44775246
@@ -1068,7 +1072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -1303,7 +1307,7 @@ GameObject:
   - component: {fileID: 92768020}
   - component: {fileID: 92768019}
   - component: {fileID: 92768018}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 10
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -1661,7 +1665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125019569}
   m_LocalRotation: {x: -0, y: 0.99631023, z: -0, w: 0.08582545}
-  m_LocalPosition: {x: 30.98, y: 1.79, z: -40.66}
+  m_LocalPosition: {x: 31.41, y: 1.79, z: -40.75}
   m_LocalScale: {x: 1.2828, y: 3.8304005, z: 3.2884192}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1688,7 +1692,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125019569}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1798,6 +1802,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: floor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
 --- !u!4 &143253463 stripped
@@ -1846,7 +1854,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &158950620
 BoxCollider:
@@ -2379,6 +2387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &215900210
@@ -2443,6 +2455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ae4cd8314f868364fb48fab05ef52480, type: 3}
       propertyPath: m_TagString
       value: floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ae4cd8314f868364fb48fab05ef52480, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae4cd8314f868364fb48fab05ef52480, type: 3}
@@ -2795,7 +2811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -3197,7 +3213,7 @@ GameObject:
   - component: {fileID: 309432132}
   - component: {fileID: 309432131}
   - component: {fileID: 309432130}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 13
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -3307,7 +3323,7 @@ GameObject:
   - component: {fileID: 310324794}
   - component: {fileID: 310324793}
   - component: {fileID: 310324792}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 9
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -3417,7 +3433,7 @@ GameObject:
   - component: {fileID: 314783514}
   - component: {fileID: 314783513}
   - component: {fileID: 314783512}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 18
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -3763,6 +3779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!4 &339452062 stripped
@@ -3886,6 +3906,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -4753,7 +4777,7 @@ GameObject:
   - component: {fileID: 444267147}
   - component: {fileID: 444267146}
   - component: {fileID: 444267145}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 12
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -4919,7 +4943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -5016,7 +5040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -5778,7 +5802,7 @@ Transform:
   - {fileID: 1685298243}
   - {fileID: 1659474255}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &520498763
 MonoBehaviour:
@@ -6107,7 +6131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -6338,6 +6362,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: floor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
 --- !u!4 &562551048 stripped
@@ -6536,7 +6564,7 @@ GameObject:
   - component: {fileID: 579604498}
   - component: {fileID: 579604497}
   - component: {fileID: 579604496}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 14
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -6687,6 +6715,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -6874,7 +6906,7 @@ GameObject:
   - component: {fileID: 608792229}
   - component: {fileID: 608792228}
   - component: {fileID: 608792227}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 3
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -6984,7 +7016,7 @@ GameObject:
   - component: {fileID: 616204347}
   - component: {fileID: 616204346}
   - component: {fileID: 616204349}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 5
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -7127,7 +7159,7 @@ GameObject:
   - component: {fileID: 621459269}
   - component: {fileID: 621459268}
   - component: {fileID: 621459267}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 24
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -7605,7 +7637,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650512340}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -7665,7 +7697,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &653387909
 BoxCollider:
@@ -8341,7 +8373,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &707321016
 BoxCollider:
@@ -8587,7 +8619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
@@ -8684,7 +8716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
@@ -9443,7 +9475,7 @@ GameObject:
   - component: {fileID: 783085374}
   - component: {fileID: 783085373}
   - component: {fileID: 783085372}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 15
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -9615,7 +9647,7 @@ GameObject:
   - component: {fileID: 788121573}
   - component: {fileID: 788121572}
   - component: {fileID: 788121571}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 22
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -9826,7 +9858,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &798093157
 BoxCollider:
@@ -9960,6 +9992,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -10236,7 +10272,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &818533761
 BoxCollider:
@@ -10620,7 +10656,7 @@ GameObject:
   - component: {fileID: 861900047}
   - component: {fileID: 861900046}
   - component: {fileID: 861900045}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 16
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -10741,7 +10777,7 @@ GameObject:
   - component: {fileID: 867419343}
   - component: {fileID: 867419342}
   - component: {fileID: 867419341}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 7
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -10948,7 +10984,7 @@ GameObject:
   - component: {fileID: 876825167}
   - component: {fileID: 876825166}
   - component: {fileID: 876825165}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 11
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -11099,6 +11135,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -11468,7 +11508,7 @@ GameObject:
   - component: {fileID: 913958738}
   - component: {fileID: 913958737}
   - component: {fileID: 913958740}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 1
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -11686,6 +11726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &934043606
@@ -11802,7 +11846,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &941856845
 BoxCollider:
@@ -12141,7 +12185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -12320,7 +12364,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972810073}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12968,7 +13012,7 @@ GameObject:
   - component: {fileID: 1040280820}
   - component: {fileID: 1040280819}
   - component: {fileID: 1040280818}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 6
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -13569,7 +13613,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088549310}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -13764,6 +13808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1115915696
@@ -13839,7 +13887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 469173a605f66cb4e9ad4d18092407ad, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 119
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 469173a605f66cb4e9ad4d18092407ad, type: 3}
@@ -13969,6 +14017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1134295001
@@ -14025,6 +14077,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -15130,7 +15186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 33e99ca7fee1c95408e367b52616c562, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33e99ca7fee1c95408e367b52616c562, type: 3}
@@ -15303,7 +15359,7 @@ GameObject:
   - component: {fileID: 1234755647}
   - component: {fileID: 1234755646}
   - component: {fileID: 1234755645}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 2
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -15417,7 +15473,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1235554796
 BoxCollider:
@@ -15905,6 +15961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1291559372
@@ -16175,7 +16235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
@@ -16593,7 +16653,7 @@ Transform:
   - {fileID: 493483114}
   - {fileID: 1620861741}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1324883309
 MonoBehaviour:
@@ -16677,6 +16737,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -16832,6 +16896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1354264431
@@ -16948,7 +17016,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1359243277
 BoxCollider:
@@ -17202,7 +17270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -17248,7 +17316,7 @@ GameObject:
   - component: {fileID: 1401741327}
   - component: {fileID: 1401741326}
   - component: {fileID: 1401741325}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 23
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -17536,7 +17604,7 @@ Transform:
   - {fileID: 1938765705}
   - {fileID: 638490778}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434020777
 GameObject:
@@ -17551,7 +17619,7 @@ GameObject:
   - component: {fileID: 1434020781}
   - component: {fileID: 1434020780}
   - component: {fileID: 1434020779}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 21
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -17896,6 +17964,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -18439,6 +18511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1513968491
@@ -18883,7 +18959,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520802166}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -19288,6 +19364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1561161302
@@ -19297,6 +19377,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1966691361}
     m_Modifications:
+    - target: {fileID: 2325970314234930323, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: gravity
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2325970314234930323, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: steering
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2325970314234930323, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: acceleration
+      value: 85
+      objectReference: {fileID: 0}
     - target: {fileID: 3137537921386370560, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -19345,6 +19437,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921882263139, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: b44ce51d68a89924cb745eb740a3b475, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1570737441
@@ -19498,6 +19598,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -19933,7 +20037,7 @@ GameObject:
   - component: {fileID: 1597595212}
   - component: {fileID: 1597595211}
   - component: {fileID: 1597595210}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 20
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -20327,6 +20431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1638714226
@@ -20517,6 +20625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!4 &1669367578 stripped
@@ -20537,7 +20649,7 @@ GameObject:
   - component: {fileID: 1673228111}
   - component: {fileID: 1673228110}
   - component: {fileID: 1673228109}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 4
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -20815,7 +20927,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1705943969
 BoxCollider:
@@ -20960,7 +21072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ae4cd8314f868364fb48fab05ef52480, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae4cd8314f868364fb48fab05ef52480, type: 3}
@@ -21042,7 +21154,7 @@ Transform:
   - {fileID: 1401741324}
   - {fileID: 621459266}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1723567967
 MonoBehaviour:
@@ -21355,7 +21467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
@@ -21892,7 +22004,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800521128}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -22004,7 +22116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
@@ -22445,6 +22557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1843978005
@@ -22460,7 +22576,7 @@ GameObject:
   - component: {fileID: 1843978008}
   - component: {fileID: 1843978007}
   - component: {fileID: 1843978010}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 8
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -23049,7 +23165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2f18b977de99b4f459e0dbf910fce4a2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f18b977de99b4f459e0dbf910fce4a2, type: 3}
@@ -23094,7 +23210,7 @@ GameObject:
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1882250467
 BoxCollider:
@@ -23243,7 +23359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25417b7a6fc2ebe4bac67533bf27d4fb, type: 3}
@@ -23423,6 +23539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1899961881
@@ -23588,6 +23708,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
       propertyPath: m_TagString
       value: floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9260d7d893cc39747b983d0f33fa0e24, type: 3}
@@ -23914,7 +24038,7 @@ Transform:
   - {fileID: 1669367578}
   - {fileID: 509447924}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969012708
 GameObject:
@@ -24968,7 +25092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2da7e7033ff97684cbe6a0cd803a8cb0, type: 3}
@@ -25171,6 +25295,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085788942}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2095061500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.502235
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.90430796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.7365522
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370560, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_Name
+      value: NavMesh Kart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683161046212824114, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_Speed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683161046212824114, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_Acceleration
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5683161046212824114, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
 --- !u!850595691 &2099324096
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -25323,7 +25520,7 @@ GameObject:
   - component: {fileID: 2125298585}
   - component: {fileID: 2125298584}
   - component: {fileID: 2125298583}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 17
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -25475,6 +25672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &2140837429
@@ -25587,7 +25788,7 @@ GameObject:
   - component: {fileID: 2141172684}
   - component: {fileID: 2141172683}
   - component: {fileID: 2141172682}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Checkpoint 19
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}

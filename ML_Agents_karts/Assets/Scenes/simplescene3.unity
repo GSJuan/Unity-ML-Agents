@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 3f2d5a0c8fc61eb498d620299e4b8723, type: 2}
+  m_NavMeshData: {fileID: 0}
 --- !u!1 &475055
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +433,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -808,6 +812,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -1767,6 +1775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!4 &339452062 stripped
@@ -1828,6 +1840,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -3022,6 +3038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NavMesh Kart
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 507d1dd3125c98841b858c6ba6cd0db9, type: 3}
 --- !u!1 &508985241
@@ -3155,7 +3175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &520498762
 Transform:
   m_ObjectHideFlags: 0
@@ -4031,6 +4051,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -5123,6 +5147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!4 &808986778 stripped
@@ -5420,6 +5448,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -5766,6 +5798,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -6391,6 +6427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1115915696
@@ -6530,6 +6570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1134295001
@@ -6586,6 +6630,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -7028,6 +7076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1284800690
@@ -7398,6 +7450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1344252736
@@ -7454,6 +7510,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -8043,6 +8103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1513378822
@@ -8099,6 +8163,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -8651,6 +8719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1561161302
@@ -8708,6 +8780,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921882263139, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 276d95d09558fc74c84dbeeb77cfe597, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1570777122
@@ -8764,6 +8844,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -9049,6 +9133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3137537921882263139, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_BehaviorType
       value: 0
@@ -9286,6 +9374,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
@@ -10237,6 +10329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1001 &1844065371
@@ -10734,6 +10830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kart Agent (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
 --- !u!1 &1919924913
@@ -10976,7 +11076,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1966691361
 Transform:
   m_ObjectHideFlags: 0
@@ -11878,6 +11978,10 @@ PrefabInstance:
     - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
       propertyPath: m_Name
       value: Kart Agent (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137537921386370566, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f061612ea5e0c243ba34975a19f0d28, type: 3}

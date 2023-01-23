@@ -15,12 +15,16 @@ public class CheckpointManager : MonoBehaviour
     private List<Checkpoint> Checkpoints;
     private Checkpoint lastCheckpoint;
 
-    public event Action<Checkpoint> reachedCheckpoint; 
+  public event Action<Checkpoint> reachedCheckpoint;
 
-    void Start()
+    private float timer;
+    private float endTimer;
+
+  void Start()
     {
         Checkpoints = FindObjectOfType<Checkpoints>().checkPoints;
         ResetCheckpoints();
+        timer = Time.time;
     }
 
     public void ResetCheckpoints()
@@ -58,7 +62,10 @@ public class CheckpointManager : MonoBehaviour
         {
             kartAgent.AddReward(0.7f);
             kartAgent.EndEpisode();
-        }
+            endTimer = Time.time;
+            float time = endTimer - timer;
+            Debug.Log("Tiempo: " + time);
+    }
         else
         {
             kartAgent.AddReward((0.7f) / Checkpoints.Count);

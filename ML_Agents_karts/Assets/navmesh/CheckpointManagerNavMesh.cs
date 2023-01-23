@@ -12,13 +12,17 @@ public class CheckpointManagerNavMesh : MonoBehaviour
     private int CurrentCheckpointIndex;
     private List<Checkpoint> Checkpoints;
 
-    public event Action<Checkpoint> reachedCheckpoint; 
+    public event Action<Checkpoint> reachedCheckpoint;
+
+    private float timer;
+    private float endTimer;
 
     void Start()
     {
         Checkpoints = FindObjectOfType<Checkpoints>().checkPoints;
         ResetCheckpoints();
         agent.SetDestination(nextCheckPointToReach.transform.position);
+        timer = Time.time;
     }
 
     public void ResetCheckpoints()
@@ -40,6 +44,9 @@ public class CheckpointManagerNavMesh : MonoBehaviour
         if (CurrentCheckpointIndex >= Checkpoints.Count)
         {
             //ended track
+            endTimer = Time.time;
+            float time = endTimer - timer;
+            Debug.Log("Tiempo: " + time.ToString());
             if (continuous)
             {
                 Debug.Log("Finished current Lap, starting next one");
