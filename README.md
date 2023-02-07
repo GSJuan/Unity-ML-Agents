@@ -1,5 +1,7 @@
 # Unity-ML-Agents
-Unity Implementation of karting game with diferent driving ml agents for comparison
+Unity Implementation of karting game with diferent driving ml agents for comparison (NavMesh and PPO Reinforcement Learning NN)
 
-Installed ml agents and generated unity project under Unity-ML-Agents\ml-agents-release_20\Project
-Desde unity para abrir el proyecto, abrir LA CARPETA RAIZ: Unity-ML-Agents
+Check report for detailed Info
+
+## Slides used to present the project
+[Link](https://docs.google.com/presentation/d/1vsVzaHMAT_RMnx5BKmD0otpl5CWzVqbTp6vLfc_Ztko/edit?usp=sharing)
